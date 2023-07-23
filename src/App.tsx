@@ -1,15 +1,9 @@
-import { TableComponent } from './components/Table/Table'
-import { useReactTable } from '@tanstack/react-table'
+import { BasicTable } from "./components/Table/Basic"
 
-function App() {
-
-  const table = useReactTable(options)
-
-  return (
-    <>
-      <TableComponent />
-    </>
-  )
+export default function App() {
+  return <>
+    <h1>Basic Table</h1>
+    <BasicTable />
+  </>
 }
 
-export default App
