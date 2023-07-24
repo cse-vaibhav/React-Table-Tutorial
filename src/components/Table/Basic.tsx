@@ -80,7 +80,7 @@ const columns = [
 
 export function BasicTable() {
 
-  const [data, setData] = useState(() => [...defaultData])
+  const [data,] = useState(() => [...defaultData])
   const rerender = useReducer(() => ({}), {})[1];
 
   const table = useReactTable({

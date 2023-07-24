@@ -103,7 +103,7 @@ const columns = [
 
 export function ColumnGroupsTable() {
 
-  const [data, setData] = useState(() => [...defaultData])
+  const [data,] = useState(() => [...defaultData])
   const rerender = useReducer(() => ({}), {})[1];
 
   const table = useReactTable({
