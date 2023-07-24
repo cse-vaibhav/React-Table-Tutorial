@@ -102,7 +102,6 @@ const columns = [
 ]//}}}
 
 export function ColumnGroupsTable() {
-
   const [data,] = useState(() => [...defaultData])
   const rerender = useReducer(() => ({}), {})[1];
 

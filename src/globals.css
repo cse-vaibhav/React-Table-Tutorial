@@ -3,28 +3,13 @@
 @tailwind utilities;
 
 * {
-  outline: 1px solid white;
   padding: 2px;
 }
 
-/* table { */
-/*   border: 1px solid lightgray; */
-/* } */
-/**/
-/* tbody { */
-/*   border-bottom: 1px solid lightgray; */
-/* } */
-/**/
-/* th { */
-/*   border-bottom: 1px solid lightgray; */
-/*   border-right: 1px solid lightgray; */
-/*   padding: 2px 4px; */
-/* } */
-/**/
-/* tfoot { */
-/*   color: gray; */
-/* } */
-/**/
-/* tfoot th { */
-/*   font-weight: normal; */
-/* } */
+.active {
+  @apply bg-slate-800 text-slate-50 rounded-md px-2 py-1 transition-colors;
+}
+
+.inactive {
+  @apply bg-slate-100 text-slate-800 rounded-md px-2 py-1 transition-colors;
+}
